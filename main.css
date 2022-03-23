@@ -1,0 +1,87 @@
+.grid{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+/*.content{
+    padding: 50px;
+    border: 1px;
+    border-style:solid;
+    background-color: gray;
+    text-align: center;
+    font-size: large;
+    font-weight: 200;
+    font-family: 'Segoe UI';
+    display: inline;
+}*/
+.content:first-child{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: gray;
+    padding-right: 20px;
+}
+.login{
+    float: right;
+}
+.menusub{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 99%;
+    height: 50px;
+}
+#fido{
+    text-align: center;
+    text-decoration: underline;
+    
+}
+#infodon{
+    text-align: center;
+}
+.content:nth-child(7){
+    margin-right: 5px;
+    margin-bottom: 5px;
+    height: 250px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: blue;
+}
+#fsubm{
+    float: right;
+    margin-right: 20px;
+}
+.al1{
+   width: 100px;
+   float: left;
+}
+.content:nth-child(8){
+    height: 250px;
+    grid-column-start: 3;
+    grid-column-end: 6;
+    background-color: aquamarine;
+}
+.content:nth-child(9){
+    grid-column-start: 1;
+    grid-column-end: 6; 
+    background-color: skyblue;
+    height: 400px;
+}
+.content:nth-child(10){
+    grid-column-start: 1;
+    grid-column-end: 6; 
+    background-color:blueviolet;
+    height: 100px;
+}
+#sfee{
+    width: 100px;
+    background-color:brown;
+    height: 50px;
+    margin: 4px 10px 0px 40px;
+    cursor: pointer;
+}

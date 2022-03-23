@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            blood donation
+        </title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <div class="grid">
+            <div class="content" id="header">
+               Blood bank.
+               <p> A social initiative.</p>
+               <form>
+                   <div class="login">
+                     <label for="un">Donor login:</label>
+                     <input type="text" name="un" size="40" maxlength="10" placeholder="username">
+                     <label for="pass">password</label>
+                     <input type="password" name="pass" size="40" placeholder="password">
+                     <button type="submit" name="log">login</button>
+                   </div>
+               </form>
+            </div>
+            <div class="menu">
+                <button type="submit" name="regis" class="menusub">Register.</button>        
+            </div>
+            <div class="menu">
+                <button type="submit" name="whydon" class="menusub">Why donate blood.</button>                
+            </div>
+            <div class="menu">
+                <button type="submit" name="whocan" class="menusub"> Who can give blood.</button>
+            </div>
+            <div class="menu">
+                <button type="submit" name="refe" class="menusub">Refer a friend.</button>                
+            </div>
+            <div class="menu">
+                <button type="submit" name="contact" class="menusub">Contact us.</button>    
+            </div>
+            <div class="content">
+                <p id="fido">
+                    find a donor.
+                </p>
+                <form>
+                    <div>
+                        <label for="fistate" class="al1">state:</label>
+                        <select name="fistate">
+                            <option value="1">andhra pradesh</option>
+                            <option value="2">telangana</option>
+                            <option value="3">tamilnadu</option>
+                            <option value="4">kerala</option>
+                            <option value="5">karnataka</option>
+                            <option value="6">odissa</option>
+                        </select>
+                        <p></p>
+                        <label for="ficity" class="al1">city:</label>
+                        <input type="text" name="ficity" size="12" maxlength="10" placeholder="type your city">
+                        <p></p>
+                        <label for="fiarea" class="al1">area:</label>
+                        <input type="text" name="fiarea" size="12" maxlength="10" placeholder="type your area">
+                        <p></p>
+                        <label for="fibgrp" class="al1">blood group:</label>
+                        <select name="fibgrp">
+                            <option value="bg1">a+</option>
+                            <option value="bg2">a-</option>
+                            <option value="bg3">b+</option>
+                            <option value="bg4">b-</option>
+                            <option value="bg5">o+</option>
+                            <option value="bg6">o-</option>
+                        </select>
+                        <p></p>
+                        <button name="fisub" type="submit" id="fsubm">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="content" id="infodon">Some information regarding blood donation.</div>
+            <div class="content">Process of donation.</div>
+            <div class="content">Where whould you like to donate?</div>
+            <div class="content">
+                <form>
+                    <div class="feedback">
+                        <button type="submit" name="feed" id="sfee">Feedback.</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
